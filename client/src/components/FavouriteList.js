@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// npm install --save-dev @iconify/react @iconify/icons-si-glyph
 import { Icon } from '@iconify/react';
-import heartDelete from '@iconify/icons-si-glyph/heart-delete';
-
+import removeIcon from '@iconify/icons-ion/remove';
 
 
 class FavouriteList extends Component {
@@ -37,7 +35,7 @@ class FavouriteList extends Component {
                             <h5 className="name"> {result.trackName} </h5>
                         <div className="description">
                             <button className="delButton" onClick={() => this.delete(index)}>
-                                <Icon className="deleteIcon" icon={heartDelete} />
+                                <Icon className="deleteIcon" icon={removeIcon} />
                             </button>
                             <p> {result.artistName}</p>
                         </div>
