@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div>
+    <nav
+      className="mb-5 nav navbar navbar-expand-sm navbar-dark bg-light sticky-top"
+    >
+      <div
+        className="container"
+      >
+        <a
+          className="navBrand navbar-brand"
+          style={
+            Object {
+              "color": "darkgray",
+              "fontSize": "29px",
+            }
+          }
+        >
+          <svg
+            className="navIcon"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<path d=\\"M349.13 136.86c-40.32 0-57.36 19.24-85.44 19.24c-28.79 0-50.75-19.1-85.69-19.1c-34.2 0-70.67 20.88-93.83 56.45c-32.52 50.16-27 144.63 25.67 225.11c18.84 28.81 44 61.12 77 61.47h.6c28.68 0 37.2-18.78 76.67-19h.6c38.88 0 46.68 18.89 75.24 18.89h.6c33-.35 59.51-36.15 78.35-64.85c13.56-20.64 18.6-31 29-54.35c-76.19-28.92-88.43-136.93-13.08-178.34c-23-28.8-55.32-45.48-85.79-45.48z\\" fill=\\"currentColor\\"/><path d=\\"M340.25 32c-24 1.63-52 16.91-68.4 36.86c-14.88 18.08-27.12 44.9-22.32 70.91h1.92c25.56 0 51.72-15.39 67-35.11c14.72-18.77 25.88-45.37 21.8-72.66z\\" fill=\\"currentColor\\"/>",
+              }
+            }
+            focusable={false}
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "transform": "rotate(360deg)",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          iTunes Search
+        </a>
+        <button
+          aria-label="Toggle navigation"
+          className="navbar-toggler"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          className="collapse navbar-collapse"
+          style={Object {}}
+        >
+          <ul
+            className="ml-auto nav-links navbar-nav"
+          >
+            <li
+              className="nav-item"
+              style={
+                Object {
+                  "marginRight": "15px",
+                }
+              }
+            >
+              <a
+                className="favourite-nav"
+                href="/"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "darkgray",
+                  }
+                }
+              >
+                Home
+              </a>
+            </li>
+            <li
+              className="nav-item"
+              style={
+                Object {
+                  "marginLeft": "15px",
+                }
+              }
+            >
+              <a
+                className="favourite-nav"
+                href="/favourites"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "darkgray",
+                  }
+                }
+              >
+                Favourites
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  <div>
+    <div
+      className="landing-page"
+    >
+      <div
+        className="search-bar"
+      >
+        <h1
+          id="heading"
+        >
+          iTunes search
+        </h1>
+        <div
+          className="searchbar-container"
+        >
+          <input
+            className="searchbar"
+            name="name"
+            onChange={[Function]}
+            placeholder="Search..."
+            type="text"
+          />
+          <br />
+          <select
+            className="select"
+            name="type"
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              className="optionSelect"
+            >
+               CATEGORIES
+            </option>
+            <option
+              className="optionSelect"
+              value="musicTrack"
+            >
+              Music
+            </option>
+            <option
+              className="optionSelect"
+              value="musicVideo"
+            >
+              Music Videos
+            </option>
+            <option
+              className="optionSelect"
+              value="software"
+            >
+              Apps
+            </option>
+            <option
+              className="optionSelect"
+              value="ebook"
+            >
+              EBooks
+            </option>
+            <option
+              className="optionSelect"
+              value="audiobook"
+            >
+              Audio Books
+            </option>
+            <option
+              className="optionSelect"
+              value="podcast"
+            >
+              Podcasts
+            </option>
+            <option
+              className="optionSelect"
+              value="movie"
+            >
+              Movies
+            </option>
+            <option
+              className="optionSelect"
+              value="tvShow"
+            >
+              TV Shows
+            </option>
+            <option
+              className="optionSelect"
+              value="shortFilm"
+            >
+              Short Films
+            </option>
+          </select>
+          <a
+            href="/search//"
+            onClick={[Function]}
+          >
+            <button
+              className="search-button"
+              onClick={[Function]}
+            >
+              SEARCH
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
