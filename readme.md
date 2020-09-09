@@ -41,7 +41,10 @@ Navigate to root directory (iTunes) and run the command npm test
 ![Favourites Page Image](screenshots/Screenshot4.png)
 
 This code includes Helmet for security purposes
+
 User will need to type name and type for API key to render
+
+Deploy link
 
 
 
