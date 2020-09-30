@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { Icon } from '@iconify/react';
+import heartDelete from '@iconify/icons-si-glyph/heart-delete';
+
+
 
 class FavouriteList extends Component {
     getSourceSet = (artworkUrl100) => { // album image for it to be reponsive
@@ -31,7 +35,9 @@ class FavouriteList extends Component {
                         <div className="album-text">
                             <h5 className="name"> {result.trackName} </h5>
                         <div className="description">
-                            <button className="delButton" onClick={() => this.delete(index)}>X</button>
+                            <button className="delButton" onClick={() => this.delete(index)}>
+                                <Icon className="deleteIcon" icon={heartDelete} />
+                            </button>
                             <p> {result.artistName}</p>
                         </div>
                         </div>
