@@ -24,7 +24,7 @@ class SearchBar extends Component {
     // get method to fetch api from server
     submitSearch() {
         axios
-        .get(`/search/${this.state.name}/${this.state.type}`)
+        .get(`/api/search?name=${this.state.name}&type=${this.state.type}`)
         .then(res => {
             this.setState({ list: res.data.results });
             this.state.setList(res.data.results);
@@ -50,7 +50,7 @@ class SearchBar extends Component {
                         <option className="optionSelect" value="tvShow">TV Shows</option>
                         <option className="optionSelect" value="shortFilm">Short Films</option>
                     </select>
-                    <Link to={`/search/${this.state.name}/${this.state.type}`}>
+                    <Link to={`/api/search?name=${this.state.name}&type=${this.state.type}`}>
                         <button className='search-button' onClick={ () => this.submitSearch() }>SEARCH</button>
                     </Link>
                 </div>
