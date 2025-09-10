@@ -22,7 +22,7 @@ app.get('/search/:name/:type', (req, res) => {
     .then(data => res.send(data));
 });
 
-app.use(function(err, req, res) {
+app.use(function(err, req, res, next) {
     console.log(err.stack);
     res.status(500).send("something broke!");
 });
